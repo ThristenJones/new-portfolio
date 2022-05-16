@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset = "UTF-8">
-        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset ="UTF-8">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
         <title>Thristen Jones Portfolio</title>
         <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
@@ -22,22 +22,22 @@
             <button class="nav-toggle" aria-label="toggle navigation">
                 <span class="hamburger"></span>
             </button>
-            <nav class = "nav"></nav>
+            <nav class ="nav">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
                     <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
-                    <li class="nav__item"><a href="#About" class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="#Work" class="nav__link">My work</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My work</a></li>
                     
                 </ul>
-
+            </nav>
         </header>
 
         <section class="intro" id="home">
-            <h1 class="section__title section__title-intro">
+            <h1 class="section__title section__title--intro">
                 Hi, I am <strong>Thristen Jones</strong>
             </h1>
-            <p class="section__subtitle section__subtitle-intro">Front-end dev</p>
+            <p class="section__subtitle section__subtitle--intro">Front-end dev</p>
             <img src="/img/Thristen jones photo.jpg" alt="A picture of me" class="intro__img">
         </section>
 
@@ -59,25 +59,13 @@
                 
             </div>
 
-            <div class="services">
-                <div class="service">
-                    <h3></h3>
-                    <p></p>
-                </div>
-            </div>
-
-            <div class="services">
-                <div class="service">
-                    <h3></h3>
-                    <p></p>
-                </div>
-            </div>
+            
             <a href="#work" class="btn">My work</a> 
         </section>
 
         <section class="about-me" id="about">
-            <h2 class="section__title section__title-about">Who I am</h2>
-            <p class ="section__subtitle section__subtitle-about">Designer & Developer based out of AZ</p>
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class ="section__subtitle section__subtitle--about">Designer & Developer based out of AZ</p>
         
             <div class="about-me__body">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime atque, ex, omnis numquam accusamus debitis voluptatum cupiditate officiis adipisci hic laborum, dolore optio illum quae velit mollitia. Architecto, quam vero.</p>
@@ -92,7 +80,6 @@
             <p class="section__subtitle section__subtitle--work"> A selection of my range of work </p>
 
             <div class="portfolio">
-
                 <a href="#" class="portfolio__item">
                     <img src="/img/fun.webp" alt="A image of my work" class="portfolio__img">
                 </a>
@@ -121,14 +108,16 @@
 
         </section>
 
-        <footer>
+        <footer class="footer">
             <a href="mailto:Thristenjones3@gmail.com" class="footer-link">Thristenjones3@gmail.com</a>
             <ul class="social-list">
                 <li class="social-list__item"><a class="social-list__link" href="https://www.facebook.com/thristen.jones/" target="_blank">Facebook</a></li>
-                <li class="social-list__item"><a class="social-list__link" href="https://github.com/ThristenJones" target="_blank">GitHub</a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://github.com/ThristenJones" target="_blank"> GitHub</a></li>
                 <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/thristen-jones/" target="_blank">LinkedIn</a></li>
             </ul>
         </footer>
+
+        <script src="/js/index.js"></script>
     </body>
 </html>
 
